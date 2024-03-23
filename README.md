@@ -1,34 +1,41 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Gabriel Oliveira - Portfolio
 
-## Getting Started
+## Sobre mim
 
-First, run the development server:
+Olá! Meu nome é Gabriel Oliveira e sou um programador backend. Tenho paixão por desenvolver soluções eficientes e escaláveis, e estou sempre em busca de novos desafios para aprimorar minhas habilidades.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+## Projetos
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Aqui estão alguns dos projetos em que trabalhei recentemente:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Sistema de gerenciamento de tarefas — TaskFlow
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Esse foi um projeto profissional desenvolvido com o objetivo de facilitar a gestão de tarefas em equipes de trabalho. O TaskFlow é uma aplicação web que permite a criação de tarefas, atribuição de responsáveis, definição de prazos e acompanhamento do progresso de cada tarefa. O sistema também conta com um painel de controle para gerenciamento de equipes e projetos.
 
-## Learn More
+Para mais informações acesse [TaskFlow](https://github.com/cotuca-projeto).
 
-To learn more about Next.js, take a look at the following resources:
+### Sistema de gestão de loja — Imperador dos Pães
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Neste projeto, desenvolvi um sistema de gestão de loja para uma padaria local. O Imperador dos Pães é uma aplicação desktop em python que permite o controle de estoque, vendas, compras, clientes e fornecedores. O sistema também conta com um módulo de relatórios para análise de desempenho e tomada de decisões.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Para mais informações acesse [Imperador dos Pães](https://github.com/projeto-padaria/Padaria/blob/main/README.md).
 
-## Deploy on Vercel
+### Robô modular para Whatsapp — Zanoni-bot
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+O Zanoni-bot é um projeto pessoal que desenvolvi para automatizar tarefas no Whatsapp. O robô é capaz de enviar mensagens, responder a comandos, interagir com usuários e realizar consultas em bancos de dados. O Zanoni-bot é altamente configurável e pode ser facilmente adaptado para diferentes finalidades, sem contar que ele utiliza Web Socket e Node.js fazendo com que a comunicação seja em tempo real.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Para mais informações acesse [zanoni-bot](https://github.com/polabiel/zanoni-bot).
+
+## Habilidades
+
+- Linguagens de programação: JavaScript, Python, Typescript, Java, C++, C#
+- Frameworks: Node.js, Express, Next.js, React.js, Prisma, Jest
+- Bancos de dados: SQL, MongoDB, Firebase, PostgreSQL, MySQL, SQLite
+- Versionamento de código: Git, GitHub
+
+## Contato
+
+- Email: bielgabrieloliveira77@gmail.com
+- LinkedIn: [Gabriel Oliveira](https://www.linkedin.com/in/polabiel)
+
+Fique à vontade para entrar em contato comigo para discutir oportunidades de colaboração ou para saber mais sobre meus projetos e experiências.
