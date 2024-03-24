@@ -9,12 +9,12 @@ async function captureScreenshot(url: string): Promise<string> {
   const browser = await puppeteer.launch();
   const page = await browser.newPage();
   await page.goto(url);
-  const outputPath = await page.screenshot({
-    path: path.join(__dirname, `screenshot-${randomUUID}.png`),
+  const screenshotPath = path.join(__dirname, `screenshot-${randomUUID()}.png`);
+  await page.screenshot({
+    path: path.join(__dirname, screenshotPath),
   });
   await browser.close();
-  const
-  return outputPath;
+  return screenshotPath;
 }
 
 export default async function CardRepository() {
@@ -29,7 +29,10 @@ export default async function CardRepository() {
         data.map(async (card: RootObject) => (
           <div key={card.id} className="bg-white p-5 m-1 *:text-black">
             {card.homepage && (
-              <img src={(await captureScreenshot(card.homepage)).toString()} alt="" />
+              <img
+                src={(await captureScreenshot(card.homepage)).toString()}
+                alt=""
+              />
             )}
             <h1>{card.name}</h1>
             <p>{card.language}</p>
