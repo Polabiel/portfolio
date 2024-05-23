@@ -1,27 +1,19 @@
 import Link from "next/link";
 import CardRepository from "@/components/cardRepository";
+import MenuRepository from "@/components/MenuRepository";
 
 export default function Home() {
   const date = new Date();
 
   return (
     <>
-      <nav>
-        <div className="logo">
-          <h1>Gabriel Olveira</h1>
-        </div>
-        <ul>
-          <li>Sobre mim</li>
-          <li>Projects</li>
-          <li>Contacts</li>
-        </ul>
-      </nav>
+      <MenuRepository />
       <main>
         <div className="info">
           <img src="" alt="" />
           <div className="content">
             <h1>Gabriel Oliveira</h1>
-            <p>Technical Student & Back-end Developer</p>
+            <p>Desenvolvedor back-end</p>
             <ul>
               <li>
                 <Link href={"https://github.com/polabiel"}>Github</Link>
